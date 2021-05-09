@@ -2,6 +2,7 @@
 :root {
 	--screen-breakpoint: 64em;
 	--main-color: #264653;
+	--sidebar-text-color: #ffffff;
 }
 
 /* Base elements */
@@ -33,7 +34,6 @@ body {
 
 .sidebar {
 	background-color: var(--main-color);
-	color: white;
 	grid-area: sidebar;
 	padding: 0 10% 10% 10%;
 }
@@ -47,4 +47,9 @@ body {
 	.content {
 		padding: 0 0.75rem 15% 10% !important;
 	}
+}
+
+/* Sidebar */
+.sidebar, .sidebar a {
+	color: var(--sidebar-text-color);
 }
