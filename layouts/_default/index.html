@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<h1>Recent Posts</h1>
+<h2>Recent Posts</h2>
 <hr class="line" />
 
 {{ range last 15 ( where .Site.RegularPages "Type" "posts" ) }}
