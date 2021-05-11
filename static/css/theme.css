@@ -101,3 +101,22 @@ tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th {
 .sidebar, .sidebar a {
 	color: var(--sidebar-text-color);
 }
+
+.sidebar h1 {
+	text-align: center;
+}
+
+.sidebar ul {
+	padding-left: 27%;
+	list-style-type: none;
+}
+
+.sidebar ul li {
+	padding-bottom: 10px;
+}
+
+.sidebar ul li a {
+	color: var(--sidebar-text-color);
+	font-size: 20px;
+	text-decoration: none;
+}
