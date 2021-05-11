@@ -1,7 +1,9 @@
 /* Variables */
 :root {
-	--screen-breakpoint: 64em;
+	--code-color: #dd1144;
+	--code-color-background: #ffecf1;
 	--main-color: #264653;
+	--screen-breakpoint: 64em;
 	--sidebar-text-color: #ffffff;
 }
 
@@ -12,6 +14,32 @@ body {
 	font-size: 1rem;
 	line-height: 1.5;
 	margin: 0;
+	padding: 0;
+}
+
+code {
+	background-color: var(--code-color-background);
+	color: var(--code-color);
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+	word-wrap: break-word;
+}
+
+pre {
+	background-color: #f9f9f9;
+	display: block;
+	margin: 0 0 10px 0;
+	padding: 3%;
+	white-space: pre;
+	white-space: pre-wrap;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+pre code {
+	background-color: transparent;
+	color: inherit;
+	font-size: 100%;
 	padding: 0;
 }
 
