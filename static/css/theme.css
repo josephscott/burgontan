@@ -2,6 +2,7 @@
 :root {
 	--code-color: #dd1144;
 	--code-color-background: #ffecf1;
+	--content-linkhover-color: #E3EEF2;
 	--main-color: #264653;
 	--screen-breakpoint: 64em;
 	--sidebar-text-color: #ffffff;
@@ -119,4 +120,50 @@ tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th {
 	color: var(--sidebar-text-color);
 	font-size: 20px;
 	text-decoration: none;
+}
+
+/* Content */
+.content {
+	grid-area: content;
+	hyphens: auto;
+	max-width: 800px;
+	overflow-wrap: break-word;
+	padding: 0 0.75rem 15% 0.75rem;
+	word-wrap: break-word;
+	word-break: break-word;
+}
+
+.content h1.post-title {
+	color: var(--main-color);
+}
+
+.content h1 a {
+	text-decoration: none;
+}
+
+.content a {
+	color: var(--main-color);
+}
+
+.content a:hover {
+	background-color: var(--content-linkhover-color);
+}
+
+/* Misc */
+.line {
+	border: 1px solid #000;
+}
+
+.post-date {
+	font-family: ui-monospace, monospace;
+	font-size: 18;
+	padding-right: 2%;
+}
+
+.tags-icon {
+	padding-right: 5px;
+}
+
+.post-link {
+	color: var(--main-color);
 }
