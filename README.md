@@ -8,3 +8,10 @@ A blog focused theme for Hugo.
 [markup.goldmark.renderer]
 unsafe= true
 ```
+
+## Option Config Items
+
+```
+[params]
+mainColor = "#ac4142"
+```
