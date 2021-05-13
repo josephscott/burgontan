@@ -127,6 +127,14 @@ tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th {
 	word-break: break-word;
 }
 
+.content a {
+	color: var(--main-color);
+}
+
+.content a:hover {
+	background-color: var(--content-linkhover-color);
+}
+
 .content h1.post-title {
 	color: var(--main-color);
 }
@@ -135,12 +143,8 @@ tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th {
 	text-decoration: none;
 }
 
-.content a {
-	color: var(--main-color);
-}
-
-.content a:hover {
-	background-color: var(--content-linkhover-color);
+.content img {
+	max-width: 100%;
 }
 
 /* Misc */
