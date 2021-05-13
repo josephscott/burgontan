@@ -4,6 +4,9 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+	{{ with .OutputFormats.Get "rss" }}
+		{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+	{{ end }}
 	<style>
 		{{ readFile "/themes/burgontan/static/css/theme.css" | safeCSS }}
 		{{ if .Site.Params.mainColor }}
