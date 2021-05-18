@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.0.2 - ????
+## 0.0.2 - 17 May 2021
 - Improved the readme docs
 - Add support for changing the link hover color ( linkHoverColor )
 - Add RSS feed
