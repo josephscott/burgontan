@@ -1,5 +1,8 @@
 # Changelog
 
+## ???? - ????
+- Add support for favicon.html
+
 ## 0.0.2 - 17 May 2021
 - Improved the readme docs
 - Add support for changing the link hover color ( linkHoverColor )
