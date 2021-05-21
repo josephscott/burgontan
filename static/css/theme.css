@@ -82,8 +82,9 @@ tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th {
 
 .sidebar {
 	background-color: var(--main-color);
+	font-size: 150%;
 	grid-area: sidebar;
-	padding: 0 10% 10% 10%;
+	padding: 0 10%;
 }
 
 @media ( min-width: 64em ) {
@@ -104,16 +105,24 @@ tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th {
 }
 
 .sidebar h1 {
+	margin: 0;
 	text-align: center;
 }
 
 .sidebar ul {
-	padding-left: 27%;
 	list-style-type: none;
+	margin: 0;
+	padding: 0 0 0 25%;
 }
 
 .sidebar ul li {
 	padding-bottom: 10px;
+}
+
+@media ( min-width: 64em ) {
+	.sidebar {
+		font-size: 1.5rem;
+	}
 }
 
 /* Content */

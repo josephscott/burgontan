@@ -2,6 +2,7 @@
 
 ## ???? - ????
 - Add support for favicon.html
+- Sidebar spacing adjustments
 
 ## 0.0.2 - 17 May 2021
 - Improved the readme docs
