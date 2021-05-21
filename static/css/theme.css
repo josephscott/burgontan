@@ -82,7 +82,6 @@ tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th {
 
 .sidebar {
 	background-color: var(--main-color);
-	font-size: 150%;
 	grid-area: sidebar;
 	padding: 0 10%;
 }
