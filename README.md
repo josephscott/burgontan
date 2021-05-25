@@ -17,6 +17,11 @@ mainColor = "#ac4142"
 linkHoverColor = "#f9e9e9"
 ```
 
+## Optional Partial Templates
+```
+favicon.html
+```
+
 ## Optional Pages
 
 **/about**
