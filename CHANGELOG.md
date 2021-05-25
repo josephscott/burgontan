@@ -1,6 +1,6 @@
 # Changelog
 
-## ???? - ????
+## 0.0.3 - 24 May 2021
 - Add support for favicon.html
 - Move from sidebar to header navigation
 
