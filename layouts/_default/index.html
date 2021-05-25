@@ -1,10 +1,14 @@
 {{ define "main" }}
 
-<h2>Recent Posts</h2>
-<hr class="line" />
+<div class="content">
 
-{{ range last 15 ( where .Site.RegularPages "Type" "posts" ) }}
-	{{ partial "list-posts.html" . }}
-{{ end }}
+	<h2>Recent Posts</h2>
+	<hr class="line" />
+
+	{{ range last 15 ( where .Site.RegularPages "Type" "posts" ) }}
+		{{ partial "list-posts.html" . }}
+	{{ end }}
+
+</div>
 
 {{ end }}

@@ -13,7 +13,7 @@
 			:root { --main-color: {{ .Site.Params.mainColor | safeCSS }}; }
 		{{ end }}
 		{{ if .Site.Params.linkHoverColor }}
-			:root { --content-linkhover-color: {{ .Site.Params.linkHoverColor | safeCSS }}; }
+			:root { --main-linkhover-color: {{ .Site.Params.linkHoverColor | safeCSS }}; }
 		{{ end }}
 	</style>
 	{{ partial "favicon.html" . }}
@@ -21,19 +21,17 @@
 <body>
 <div class="page">
 
-	<div class="sidebar">
-		<h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
-
-		<ul class="nobullets">
+	<div class="header">
+		<nav>
+		<ul>
+			<li><a class="nav-home" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></li>
 			{{ if .Site.GetPage "/about" }}
 				<li><a href="{{ .Site.BaseURL }}about">/about</a></li>
 			{{ end }}
-			{{ if .Site.GetPage "/contact" }}
-				<li><a href="{{ .Site.BaseURL }}contact">/contact</a></li>
-			{{ end }}
 			<li><a href="{{ .Site.BaseURL }}tags">/tags</a></li>
 		</ul>
+		</nav>
 	</div>
 
-	<div class="content">
+	<div class="main">
 
