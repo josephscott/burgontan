@@ -3,7 +3,7 @@
 ## ???? - ????
 - Updated readme docs
 - Include meta description field
-- Lower the font size
+- Lower the font size, larger width for smaller screens
 - RSS template, with full post contents
 - Bundle GitHub Comments ( https://github.com/josephscott/github-comments )
 
