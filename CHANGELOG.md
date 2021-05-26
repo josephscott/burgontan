@@ -3,6 +3,9 @@
 ## ???? - ????
 - Updated readme docs
 - Include meta description field
+- Lower the font size and bring in the post width
+- RSS template, with full post contents
+- Bundle GitHub Comments ( https://github.com/josephscott/github-comments )
 
 ## 0.0.3 - 24 May 2021
 - Add support for favicon.html
