@@ -4,7 +4,7 @@
 - Updated readme docs
 - Include meta description field
 - Lower the font size, larger width for smaller screens
-- RSS template, with full post contents
+- RSS template, with full post contents, show "posts" entries only
 - Bundle GitHub Comments ( https://github.com/josephscott/github-comments )
 
 ## 0.0.3 - 24 May 2021
