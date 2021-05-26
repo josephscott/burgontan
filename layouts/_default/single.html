@@ -20,6 +20,14 @@
 
 		{{ .Content }}
 	</div>
+
+	{{ if and ( isset .Site.Params "githubcomments" ) ( isset .Params "commentid" ) }}
+		<hr />
+		<div id="comments"></div>
+
+		<style>{{ readFile "/themes/burgontan/static/css/github-comments.min.css" | safeCSS }}</style>
+		<script data-ghissue="{{ .Site.Params.githubcomments }}/issues/{{ .Params.commentid }}" data-target="#comments">{{ readFile "/themes/burgontan/static/js/github-comments.min.js" | safeJS }}</script>
+	{{ end }}
 </div>
 
 {{ end }}
