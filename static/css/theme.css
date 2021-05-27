@@ -112,7 +112,6 @@ nav li a:hover {
 /* Main */
 .main {
 	grid-area: main;
-	hyphens: auto;
 	max-width: 1200px;
 	overflow-wrap: break-word;
 	word-wrap: break-word;
