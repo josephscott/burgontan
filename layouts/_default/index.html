@@ -5,7 +5,7 @@
 	<h2>Recent Posts</h2>
 	<hr class="line" />
 
-	{{ range last 15 ( where .Site.RegularPages "Type" "posts" ) }}
+	{{ range first 15 ( where .Site.RegularPages "Type" "posts" ) }}
 		{{ partial "list-posts.html" . }}
 	{{ end }}
 

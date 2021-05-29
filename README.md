@@ -15,6 +15,7 @@ unsafe= true
 [params]
 mainColor = "#ac4142"
 linkHoverColor = "#f9e9e9"
+recentPostsAfterPost = "true"
 ```
 
 ## Optional Partial Templates

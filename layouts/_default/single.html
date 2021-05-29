@@ -21,6 +21,14 @@
 		{{ .Content }}
 	</div>
 
+	{{ if isset .Site.Params "recentpostsafterpost" }}
+		<hr />
+		<h3>Recent Posts</h3>
+		{{ range first 3 ( where .Site.RegularPages "Type" "posts" ) }}
+			{{ partial "list-posts.html" . }}
+		{{ end }}
+	{{ end }}
+
 	{{ if and ( isset .Site.Params "githubcomments" ) ( isset .Params "commentid" ) }}
 		<hr />
 		<div id="comments"></div>
