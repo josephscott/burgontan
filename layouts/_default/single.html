@@ -21,6 +21,15 @@
 		{{ .Content }}
 	</div>
 
+	{{ if isset .Site.Params "relatedposts" }}
+		<hr />
+		<h3>Related Posts</h3>
+		{{ $related :=  .Site.RegularPages.Related . }}
+		{{ range first 3 $related }}
+			{{ partial "list-posts.html" . }}
+		{{ end }}
+	{{ end }}
+
 	{{ if isset .Site.Params "recentpostsafterpost" }}
 		<hr />
 		<h3>Recent Posts</h3>

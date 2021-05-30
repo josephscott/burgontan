@@ -7,6 +7,7 @@
 - RSS template, with full post contents, show "posts" entries only
 - Add support for site local header and footer partials
 - Optionally show the 3 most recent posts after the single post page
+- Optionally show up to 3 related posts after the single post page
 - Bundle GitHub Comments ( https://github.com/josephscott/github-comments )
 
 ## 0.0.3 - 24 May 2021

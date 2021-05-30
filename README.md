@@ -16,6 +16,7 @@ unsafe= true
 mainColor = "#ac4142"
 linkHoverColor = "#f9e9e9"
 recentPostsAfterPost = "true"
+relatedPosts = "true"
 ```
 
 ## Optional Partial Templates
