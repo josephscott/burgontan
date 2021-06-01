@@ -1,6 +1,6 @@
 # Changelog
 
-## ???? - ????
+## 0.0.4 - 31 May 2021
 - Updated readme docs
 - Include meta description field
 - Lower the font size, larger width for smaller screens
