@@ -196,4 +196,9 @@ nav li a:hover {
 		padding: 7px 0 7px 15px;
 		text-align: left;
 	}
+
+	.nav-home {
+		font-size: 1.5rem;
+		text-align: center;
+	}
 }
