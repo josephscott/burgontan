@@ -3,6 +3,7 @@
 ## ???? - ????
 - Add support for site local menu items
 - Do more to highlight the site name at the top of the nav menu on smaller screens
+- Small improvement to the 404 page layout
 
 ## 0.0.4 - 31 May 2021
 - Updated readme docs
