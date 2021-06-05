@@ -29,3 +29,8 @@ favicon.html
 **/about**
 
 Create a page in `content/about.md` and use `layout: staticpage`.
+
+## Front Matter
+```
+hidden: true
+```
