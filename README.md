@@ -30,6 +30,17 @@ favicon.html
 
 Create a page in `content/about.md` and use `layout: staticpage`.
 
+**/archives**
+
+Create a page in `content/archives.md` and use this front matter:
+```
+---
+title: "Posts Archive"
+layout: archive
+hidden: true
+---
+```
+
 ## Front Matter
 ```
 hidden: true
