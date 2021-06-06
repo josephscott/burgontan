@@ -6,6 +6,7 @@
 - Small improvement to the 404 page layout
 - In post lists filter out posts with `hidden: true`
 - Optional page: `/archive`
+- Optional partial: `home.html`
 
 ## 0.0.4 - 31 May 2021
 - Updated readme docs
