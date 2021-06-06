@@ -21,7 +21,8 @@ relatedPosts = "true"
 
 ## Optional Partial Templates
 ```
-favicon.html
+site-header.html
+site-footer.html
 home.html
 ```
 

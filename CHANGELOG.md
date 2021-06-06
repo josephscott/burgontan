@@ -7,6 +7,7 @@
 - In post lists filter out posts with `hidden: true`
 - Optional page: `/archive`
 - Optional partial: `home.html`
+- REMOVE: favicon.html ( use `site-header.html` instead )
 
 ## 0.0.4 - 31 May 2021
 - Updated readme docs
