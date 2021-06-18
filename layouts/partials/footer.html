@@ -1,10 +1,23 @@
 
-	</div> <!-- .main -->
+</main>
 
-	<div class="footer">
-		{{ partial "site-footer.html" . }}
-	</div>
-</div> <!-- .page -->
+<footer>
+	{{ partial "site-footer.html" . }}
+</footer>
+
+<script>
+(function () {
+	let toggle = document.querySelector( 'header .toggle' );
+	toggle.addEventListener( 'click', event => {
+	let nav = document.querySelector( 'header nav' );
+		if ( nav.style.display === 'block' ) {
+			nav.style.display = 'none';
+		} else {
+			nav.style.display = 'block';
+		}
+	} );
+})();
+</script>
 
 </body>
 </html>

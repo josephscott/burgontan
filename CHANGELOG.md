@@ -1,5 +1,8 @@
 # Changelog
 
+## ???? - ????
+- Layout, CSS, and menu updates
+
 ## 0.0.5 - 09 Jun 2021
 - Add support for site local menu items
 - Do more to highlight the site name at the top of the nav menu on smaller screens

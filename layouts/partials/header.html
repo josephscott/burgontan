@@ -20,23 +20,23 @@
 	{{ partial "site-header.html" . }}
 </head>
 <body>
-<div class="page">
+<header>
+	<h1><a class="home" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+	<nav>
+		{{ if .Site.GetPage "/about" }}
+			<a href="{{ .Site.BaseURL }}about">/about</a>
+		{{ end }}
 
-	<div class="header">
-		<nav>
-		<ul>
-			<li><a class="nav-home" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></li>
-			{{ if .Site.GetPage "/about" }}
-				<li><a href="{{ .Site.BaseURL }}about">/about</a></li>
-			{{ end }}
-			<li><a href="{{ .Site.BaseURL }}tags">/tags</a></li>
-			{{ if .Site.GetPage "/archive" }}
-				<li><a href="{{ .Site.BaseURL }}archive">/archive</a></li>
-			{{ end }}
-			{{ partial "site-menu.html" . }}
-		</ul>
-		</nav>
-	</div>
+		<a href="{{ .Site.BaseURL }}tags">/tags</a>
 
-	<div class="main">
+		{{ if .Site.GetPage "/archive" }}
+			<a href="{{ .Site.BaseURL }}archive">/archive</a>
+		{{ end }}
+
+		{{ partial "site-menu.html" . }}
+	</nav>
+	<button class="toggle" title="Menu Toggle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M4 10h24a2 2 0 000-4H4a2 2 0 000 4zm24 4H4a2 2 0 000 4h24a2 2 0 000-4zm0 8H4a2 2 0 000 4h24a2 2 0 000-4z"/></svg></button>
+</header>
+
+<main>
 
