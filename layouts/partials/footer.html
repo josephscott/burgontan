@@ -10,7 +10,12 @@
 	</div>
 
 	<div>
-		<h2>Tags</h2>
+		<h2>Popular Tags</h2>
+		{{ range $name, $taxo := site.Taxonomies }}
+			{{ range ( first 5 ( $taxo.ByCount ) ) }}
+				<p><a href="/tags/{{ .Term }}">{{.Term }}</a> ( {{ .Count | lang.NumFmt 0 }} )</p>
+			{{ end }}
+		{{ end }}
 	</div>
 
 	<div class="bottom">

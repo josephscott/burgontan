@@ -8,6 +8,7 @@
 - Remove CSS color variables
 - Use the "main" menu config items for navigation menu items
 - Add copyright option
+- Add popular tag list to the footer
 
 ## 0.0.5 - 09 Jun 2021
 - Add support for site local menu items
