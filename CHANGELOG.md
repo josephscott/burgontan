@@ -2,6 +2,8 @@
 
 ## ???? - ????
 - Layout, CSS, and menu updates
+- Remove related posts section
+- Move the recent posts lists to the footer
 
 ## 0.0.5 - 09 Jun 2021
 - Add support for site local menu items

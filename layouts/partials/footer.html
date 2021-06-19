@@ -2,6 +2,13 @@
 </main>
 
 <footer>
+	<span>
+		<h2>Recent Posts</h2>
+		{{ range first 5 ( where .Site.RegularPages "Type" "posts" ) }}
+			{{ partial "list-posts.html" . }}
+		{{ end }}
+	</span>
+
 	{{ partial "site-footer.html" . }}
 </footer>
 
