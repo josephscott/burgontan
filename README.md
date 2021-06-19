@@ -12,7 +12,7 @@ unsafe= true
 ## Optional Config Items
 
 ```
-[params]
+copyright = "© Copyright {year} Your Name Here"
 ```
 
 ### Menus
