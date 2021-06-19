@@ -10,12 +10,6 @@
 	{{ end }}
 	<style>
 		{{ readFile "/themes/burgontan/static/css/theme.css" | safeCSS }}
-		{{ if .Site.Params.mainColor }}
-			:root { --main-color: {{ .Site.Params.mainColor | safeCSS }}; }
-		{{ end }}
-		{{ if .Site.Params.linkHoverColor }}
-			:root { --main-linkhover-color: {{ .Site.Params.linkHoverColor | safeCSS }}; }
-		{{ end }}
 	</style>
 	{{ partial "site-header.html" . }}
 </head>

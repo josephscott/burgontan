@@ -5,6 +5,7 @@
 - Remove related posts section
 - Move the recent posts lists to the footer
 - Remove github comments JavaScript
+- Remove CSS color variables
 
 ## 0.0.5 - 09 Jun 2021
 - Add support for site local menu items
