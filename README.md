@@ -15,6 +15,19 @@ unsafe= true
 [params]
 ```
 
+### Menus
+```
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+[[menu.main]]
+    name = "Archive"
+    url = "/archive/"
+```
+
 ## Optional Partial Templates
 ```
 site-header.html
