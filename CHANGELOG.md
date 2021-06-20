@@ -1,6 +1,7 @@
 # Changelog
 
 ## ???? - ????
+- More top and bottom margin to the main content area
 
 ## 0.0.6 - 19 Jun 2021
 - Layout, CSS, and menu updates
