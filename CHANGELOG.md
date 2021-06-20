@@ -1,6 +1,8 @@
 # Changelog
 
 ## ???? - ????
+
+## 0.0.6 - 19 Jun 2021
 - Layout, CSS, and menu updates
 - Remove related posts section
 - Move the recent posts lists to the footer
