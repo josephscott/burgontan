@@ -41,9 +41,9 @@ home.html
 
 Create a page in `content/about.md` and use `layout: staticpage`.
 
-**/archives**
+**/archive**
 
-Create a page in `content/archives.md` and use this front matter:
+Create a page in `content/archive.md` and use this front matter:
 ```
 ---
 title: "Posts Archive"
