@@ -2,7 +2,7 @@
 
 <div class="content">
 	<div class="post-wrapper">
-		<h1 class="post-title"><a href="{{ .URL }}">{{ .Title }}</a></h1>
+		<h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
 		<div class="post-date">{{ dateFormat "2 Jan 2006" .PublishDate }}</div>
 		<div>
 			{{ $taxo := "tags" }}
