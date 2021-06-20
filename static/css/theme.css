@@ -124,14 +124,14 @@ main img {
 footer {
 	background-color: #9ED1CC;
 	margin-top: 50px;
-	padding: 0 30px 75px 30px;
+	padding: 0 50px 50px 50px;
 	min-height: 100px;
 	font-size: 80%;
     box-shadow: 0 -3px 1px -2px rgb(0 0 0 / 20%), 0 -2px 2px 0 rgb(0 0 0 / 14%), 0 -1px 5px 0 rgb(0 0 0 / 12%);
 	z-index: 2;
 
 	display: grid; 
-	grid-template-columns: 1fr 1fr; 
+	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 9fr 1fr; 
 	gap: 0px 0px; 
 	grid-template-areas: ". ." ". ."; 
@@ -197,6 +197,17 @@ footer .bottom {
 		right: 0;
 		top: 0;
 		width: 60px;
-		height: 86px;
+		height: 70px;
+	}
+
+	footer {
+		padding: 0 10px 50px 10px;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-template-areas: "." "." ".";
+	}
+
+	footer .bottom {
+		grid-column-end: unset;
 	}
 }
