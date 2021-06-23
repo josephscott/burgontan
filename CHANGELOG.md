@@ -2,6 +2,7 @@
 
 ## ???? - ????
 - More top and bottom margin to the main content area
+- More padding after the post content wrapper ( above comments )
 - More padding for unordered list items
 
 ## 0.0.6 - 19 Jun 2021
