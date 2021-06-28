@@ -5,6 +5,7 @@
 - More padding after the post content wrapper ( above comments )
 - More padding for unordered list items
 - Adjust code color and background for better contrast
+- Add site-footer-pre.html partial for items to display above the copyright in the footer
 
 ## 0.0.6 - 19 Jun 2021
 - Layout, CSS, and menu updates

@@ -18,6 +18,8 @@
 		{{ end }}
 	</div>
 
+	{{ partial "site-footer-pre.html" . }}
+
 	<div class="bottom">
 		{{ replace .Site.Copyright "{year}" now.Year }}
 	</div>
