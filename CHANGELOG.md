@@ -7,6 +7,7 @@
 - Adjust code color and background for better contrast
 - Add site-footer-pre.html partial for items to display above the copyright in the footer
 - Center images in the main content area
+- Make post title text black on the single post page
 
 ## 0.0.6 - 19 Jun 2021
 - Layout, CSS, and menu updates
